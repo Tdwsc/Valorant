@@ -1,0 +1,433 @@
+body{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    scroll-margin-top: 80px;
+}
+
+#riot-bar{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+#riot-logo{
+    width: 121px;
+    height: auto;
+}
+
+#riot-logo-val{
+   width: 90px;
+   height: auto;
+}
+
+#logo1{
+    
+    width: 95px;
+    height: 32px;
+}
+
+#logo2{
+    
+    width: 45px;
+    height: 50px;
+}
+
+#information{
+    width: 900px;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.info1{
+    flex-grow: 1;
+}
+
+.info2{
+    flex-grow: 1;
+    
+}
+
+.info3{
+    flex-grow: 1;
+}
+
+.info4{
+    flex-grow: 2;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.info{
+    color: white;
+    font-family: "FF Mark W05", Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    font-variant: small-caps;
+    word-spacing: 3px;
+}
+
+#more{
+    width: 350px;
+    height: 80px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.icon1{
+    width: 24px;
+    height: 24px;
+    flex-grow: 1;
+}
+
+.icon2{
+    width: 24px;
+    height: 24px;
+    flex-grow: 1;
+}
+
+.icon3{
+    flex-grow: 1;
+    width: 24px;
+    height: 24px;
+}
+
+.icon{
+    display: flex;
+}
+
+#intro{
+    width: 100%;
+    height: auto;
+    
+}
+
+#video{
+    max-height: 620px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    min-height: 580px;
+}
+
+#news{
+    width: 100%;
+    height: 100vh;
+    background-image: url(background-val-1.webp);
+    display: flex;
+    position: relative;
+}
+
+#top{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.section1{
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    flex:1;
+}
+
+.section2{
+    font-size: 16px;
+    font-weight: lighter;
+    white-space: nowrap;
+    text-transform: uppercase;
+    flex:1;
+}
+
+#bot{
+    display: flex;
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    justify-content: center;
+    gap: 20px;
+}
+
+.riot-news{
+    width: 33.33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.itn{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.thumbnail{
+    flex: 1;
+    
+}
+
+.p{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.para{
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+#vbot{
+    width: 100%;
+    height: 100vh;
+    background-image: url(background-val-3.webp);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    /* position: relative; */
+}
+
+#p1{
+    justify-content: center;
+    
+}
+
+.p2{
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    /* position: absolute;
+    left: 10px; */
+    flex-wrap: wrap;
+}
+
+.pz{
+    font-size: 102px;
+    /* position: absolute;
+    top: 20px; */
+    font-weight: 700;
+    word-spacing: -5px;
+    letter-spacing: -5px;
+    line-height: 1.15;
+}
+
+.px{
+    font-weight: 500;
+    font-size: 21px;
+}
+
+#footer{
+    width: 100%;
+    height: fit-content;
+    background-color: black;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.fyi{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    gap: 10px;
+}
+
+.abc{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.ic1{
+    width: 30px;
+    height: 30px;
+    gap: 10px;
+}
+
+.xyz{
+    width: 100%;
+    height: 15%;
+}
+
+.lgic{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 30px;
+    
+}
+
+.lg1{
+    width: 99px;
+    height: auto;
+}
+
+.lg2{
+    width: 110px;
+    height: auto;
+    
+}
+.lg1>img{
+    width: 100%;
+}
+.lg3>img{
+    width: 100%;
+}
+.lg2>img{
+    width: 100%;
+}
+
+.lg3{
+    width: 90px;
+    height: auto;
+}
+
+.text{
+   width: 100%;
+   height: 15%;
+   margin: 0 auto;
+   max-width: 640px;
+}
+
+.tcr{
+    font-family: "ff mark w05", arial, sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 140%;
+    text-align: center;
+    color: #7e7e7e;
+    text-wrap: wrap;
+}
+
+.pt{
+    display: flex;
+    width: 100%;
+    height: 15%;
+    padding: 24px 0px 28px;
+    font-family: "ff mark w05", Arial, sans-serif;
+    letter-spacing: .08em;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+.csdk{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 1;
+    gap: 35px;
+}
+
+.ef{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 400px) {
+    .section1{
+        font-size: 12px;
+        font-weight: bold;
+        text-transform: uppercase;
+        align-items: center;
+        flex:3
+        
+    }
+    .section2{
+        flex:2;
+    }
+    .abc{
+        
+        padding-bottom: 20px;
+    }
+    
+    #arrow-icon{
+        width: 20px;
+        margin-right:20px;
+        overflow-x: hidden;
+    }
+
+    .section2>h9{
+        visibility: hidden;
+    }
+    .pz{
+        font-size: 65px;
+        /* position: absolute;
+        top: 20px; */
+        font-weight: 700;
+        word-spacing: -5px;
+        letter-spacing: -5px;
+        line-height: 1.15;
+    }
+    
+    .px{
+        font-weight: 500;
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width:400px){
+    .pt{
+        height: auto;
+    }
+    .csdk{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .tcr{
+        font-family: "ff mark w05", arial, sans-serif;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 140%;
+        text-align: center;
+        color: #7e7e7e;
+        text-wrap: wrap;
+    }
+
+    .lgic{
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .lg1{
+        width: 70px;
+    }
+    .lg2{
+        width: 80px;
+    }
+    .lg3{
+        width: 70px;
+    }
+
+
+}
